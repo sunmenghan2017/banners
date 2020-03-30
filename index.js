@@ -29,6 +29,7 @@ var $carousel = (function(){
         $(cfg.container).append($content);
         $.extend(cfg,conf);
         animate();
+        //鼠标滑入滑出
         $box.mouseover(function(){
             $('#left').css('opacity',0.5);
             $('#right').css('opacity',0.5);
